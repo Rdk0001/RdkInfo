@@ -1,0 +1,7 @@
+RegisterCommand("info", function (source, args, rawCommand)
+    local name = GetPlayerName(PlayerId())
+    local id = GetPlayerServerId(PlayerId())
+    sendNotification("DISCORD.GG/EXTAZIARP")
+    sendNotification("Votre ID".. id .." ")
+    endNotification("Votre Nom Steam" .. name .. " ")
+end)
